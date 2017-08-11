@@ -1,0 +1,27 @@
+@media (max-width: 768px)
+{
+    .container-fluid
+    {
+          margin-top: -50px;
+          margin-bottom: 10px;
+
+    }
+    .btn-group > .btn, .btn-group-vertical > .btn
+    {
+            position: relative;
+             top: 62px;
+    }
+   .dropdown-menu
+   {
+           position: absolute;
+            top: 293%;
+   }
+   .user,.msg
+   {
+         display: none
+   }
+   .back-contact
+   {
+         min-height: 650px;
+   }
+}

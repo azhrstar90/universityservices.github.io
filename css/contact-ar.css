@@ -1,0 +1,67 @@
+.form-group .lara
+{
+     height: 0;
+     position: relative;
+     top: -34px;
+     left: -8px;
+     color: #000;
+     font-size: 15px;
+}
+.form-group
+{
+            margin-bottom: -6px;
+}
+.form-group .user
+{
+        height: 0;
+        position: absolute;
+        right: 535px;
+        top:11px;
+        color: #f00;
+        font-size: 25px;
+}
+.form-group .mail
+{
+        height: 0;
+        float: right;
+        position: absolute;
+        right: 25px;
+        top:70px;
+        color: #f00;
+        font-size: 25px;
+}
+.form-group .msg
+{
+        height: 0;
+        float: right;
+        position: absolute;
+        right: 535px;
+        top:11px;
+        color: #f00;
+        font-size: 25px;
+}
+
+.alert
+{
+    padding:10px 30px;
+    font-size: 17px;
+    display: none
+
+}
+.input-lg
+{
+        padding: 10px 33px;
+}
+.btn-lg, .btn-group-lg > .btn
+{
+        margin-top: 15px;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+        font-size: 12px;
+}
+.breadcrumb
+{
+        position: relative;
+        top: 60px;
+}

@@ -1,0 +1,320 @@
+/**** this is our quiry style ****/
+/** our body quiry style **/
+@media (max-width: 500px)
+{
+    body
+    {
+        font-size: 18px;
+    }
+
+    h1, h2
+    {
+        font-size: 22px;
+    }
+    h3
+    {
+        font-size: 18px;
+    }
+    body .table
+    {
+        font-size: 16px;
+    }
+    body h4
+    {
+        font-size: 16px;
+    }
+
+
+}
+/* start our navbar quiry */
+
+@media (max-width: 768px)
+{
+    .navbar-inverse .navbar-nav > li > a
+    {
+        font-size: inherit;
+    }
+    .container-fluid
+    {
+        margin-top: -15px;
+        margin-bottom: 10px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a
+    {
+       color: #fff;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus
+    {
+        background-color:#E41B17 ;
+        padding-left: 25px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider
+    {
+        background-color:#E41B17 ;
+    }
+    .navbar-inverse img
+    {
+        display: none;
+    }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height:none;
+    }
+    .dropdown-menu > li > a, .dropdown-header, .navbar-nav > li > .dropdown-menu
+    {
+        background-color: #222222;
+    }
+
+
+}
+@media (max-width: 768px)
+{
+    .container-fluid
+    {
+         margin-top: -11px;
+         margin-bottom: 10px;
+
+    }
+    .btn-group > .btn, .btn-group-vertical > .btn
+    {
+            position: relative;
+             top: 62px;
+    }
+   
+}
+
+
+/* end our navbar quiry */
+
+/* start our logo */
+
+@media (max-width: 750px)
+{
+    #logo1
+    {
+        width: 100%;
+
+    }
+
+}
+@media (max-width: 440px)
+{
+    #logo1
+    {
+        margin-top: 70px;
+    }
+}
+
+/* end our logo */
+
+/* start our head */
+@media (max-width: 415px)
+{
+    .our-head #p-head span
+    {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    .our-head #p-head p
+    {
+        font-size: 14px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+}
+/* end our head */
+
+
+/* start images our slider */
+
+@media (max-width:768px) and (max-width:1080px)
+{
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img
+    {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img
+    {
+        width: 100%;
+        height: 250px;
+
+    }
+
+}
+@media (max-width: 600px)
+{
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img
+    {
+        width: 100%;
+        height: 275px;
+    }
+}
+@media (max-width: 690px)
+{
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img
+    {
+        width: 100%;
+        height: 300px;
+    }
+}
+@media (min-width: 770px)
+{
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img
+    {
+        width: 100%;
+        height: 400px;
+
+    }
+
+}
+@media (min-width: 1000px)
+{
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img
+    {
+        width: 100%;
+        height: 500px;
+
+    }
+
+}
+
+@media (max-width: 440px)
+{
+    .carousel-inner
+    {
+        display: none;
+    }
+    .carousel-indicators
+    {
+        display: none;
+    }
+}
+
+/* end images our slider */
+
+/* start our defin */
+
+@media (max-width: 992px)
+{
+    .define-web i
+    {
+        display: none;
+    }
+    .define-web h4
+    {
+        display: none;
+    }
+    .define-web .flag img
+    {
+        margin-top: 0;
+    }
+
+}
+@media (max-width: 768px)
+{
+    .define-web .flag img
+    {
+        width: 250px;
+    }
+
+}
+
+/* end our defin */
+
+/* start cities of belarus */
+
+@media (max-width: 768px)
+{
+    .belarus-cities .back-gr1 p
+    {
+        padding: 20px 20px;
+
+    }
+
+}
+
+/* end cities of belarus */
+
+/* start our footer */
+
+@media (max-width: 1200px)
+{
+    footer .social-list .social-list2 img
+    {
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 991px)
+{
+    footer h1,h2,h3,h4,p
+    {
+       padding-left: 1%;
+    }
+    footer h5
+    {
+        padding-left: 6%;
+    }
+    footer .col-xs-12
+    {
+        padding-top: 10px;
+        border-top: 1px solid #E41B17 ;
+    }
+    footer .social-list .social-list2 img
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+@media (max-width: 786px)
+{
+    footer .menu-list1 ul li,h2
+    {
+        text-align: left;
+    }
+
+}
+@media (min-width: 991px)
+{
+    footer .address h5
+    {
+        text-align: center;
+    }
+    footer .address i
+    {
+        padding-left: 48%;
+    }
+    footer h2
+    {
+        font-size: 24px;
+    }
+}
+@media (max-width: 991px)
+{
+    footer .social-list
+    {
+        padding-top: 25px;
+        padding-left: 0;
+    }
+
+
+}
+@media (max-width: 348px)
+{
+    footer .social-list .social-list2 img
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+}
+/* end our footer */
